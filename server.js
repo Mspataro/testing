@@ -61,7 +61,7 @@ app.get('/about', (req, res) => {
 
 
 app.listen(port, () => {
-	console.log('Server is up on port 3000')
+	console.log(`Server running on port: ${port}`)
 });
 
 //app that helps people find entertainers, games, shows, movies, blog posts, forum posts, apps, etc.. based on a swiping esque mechanism, where people can post 
